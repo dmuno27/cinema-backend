@@ -40,3 +40,12 @@ export const searchMovies = async () => {
     ]
   });
 }
+
+export const getProgrammingByMovie = async (movieId: number) => {
+  return await MovieProgramming.findAll({
+    include: [
+      { association: 'Room', attributes: [ 'id', 'name' ] },
+      { association: 'Movie', attributes: [ 'id', 'title', 'time' ] },
+    ]
+  });
+}
