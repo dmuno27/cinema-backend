@@ -7,7 +7,6 @@ Este es el backend para una aplicación de gestión de cine, desarrollado con No
 - [Características](#características)
 - [Tecnologías usadas](#tecnologías-usadas)
 - [Instalación](#instalación)
-- [Configuración](#configuración)
 
 ## Características
 
